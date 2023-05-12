@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.hhh {
+    height: 615px;
+}
+
+
+
+.caro {
+
+    margin-top: -35%;
+    margin-left: -15%;
+}
+
+.car {
+    margin-left: -100%;
+}
+
+.feature {
+    background-color: #FAFAFA;
+}
+
+.reach {
+
+    background-color: #EDF0F5;
+}
+
+.reach:hover {
+    box-shadow: 1px 1px 4px 5px #EDF0F5;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:focus .whyspring {
+    display: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    /* margin-right: 30px; */
+
+}
+
+button:focus .whyspring {
+    display: inherit;
+}
+
+/* :hover{
+        background-color: #323A45;
+        height: 100%;
+    } */
+
+.whyspring {
+    width: 180px;
+    height: fit-content;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    z-index: 30000;
+    display: none;
+}
+
+.high {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 85%;
+}
+
+.flex {
+    display: flex;
+}
+
+.wii {
+    width: 50%;
+}
+
+@media(max-width:720px) {
+    .flex {
+        display: block;
+    }
+
+    .wii {
+        width: 100%;
+    }
+
+}
